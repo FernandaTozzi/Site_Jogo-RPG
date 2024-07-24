@@ -1,0 +1,265 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1a1f;
+    color:#868686;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #2c2d36;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*NAV*/
+.navbar-container{
+    margin-left:200px;
+    width: 800px;
+    height: 80px;
+    background-color: #222229;
+    padding: 0 2rem;
+  }
+  nav {
+    position: relative;
+  }
+  
+  .logo {
+    width: 150px;
+    margin-top: -90px;
+  }
+  
+  .navbar-items {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+  }
+  
+  .navbar-items li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+  }
+  .navbar-items a {
+    color: #4e4a5b;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .navbar-items a:hover {
+    color: #ccc;
+  }
+  
+  
+/*CABEÇALHO*/
+.header{
+    text-align:  center;
+}
+
+.main-title{
+    font-size:40px;
+}
+
+.main-paragraph{
+    font-style:italic;
+}
+
+/*image de destaque*/
+.featured-image{
+    text-align:center;
+    margin-top:30px;
+}
+/*Bio*/
+
+.biography-container{
+    padding: 25px 100px;
+    margin: px 0px;
+    border-top:  1px dashed #555555;
+    border-bottom: 1px dashed #555555;
+}
+
+/*Quotes*/
+.quotes-container{
+    background-color: #1a1a1f;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.quotes-container blockquote{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.quotes-container p{
+    font-style: italic;
+}
+
+/*curiosidades*/
+
+.curiosities-container{
+    padding:15px 0;
+    margin: 25px 0;
+    border-top:  1px dashed #555555;
+    border-bottom: 1px dashed #555555;
+}
+
+.curiosities-container li{
+    height:30px;
+}
+
+.img-bold{
+    font-weight: bold;
+    text-align: center;
+}
+
+.sticky {
+    width: 100px;
+    height: 100px;
+    position: sticky;
+    top: 75%;
+    left: 90%;
+  }
+
+.img-tv{
+    max-width: 150px;
+}
+.fixed {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0 ;
+  }
+  .img-logo{
+    max-width: 300px;
+}
+.canva-container{
+    text-align: center;
+    max-width: 1100px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+}
+.canva{
+    max-height: 450px;
+    max-width: 450px;
+    display: inline-block;
+   
+}
+.about-canva{
+    margin: 20px 10px;
+    max-height: 450px;
+    max-width: 450px;
+    display: inline-block;
+}
+
+.img-canva{
+    max-width: 400px;
+}
+.img-boss{
+    padding: 0px;
+    margin: none;
+    width: 180px;
+}
+.banner{
+    max-width: 1000px;
+    min-width: 700px;
+}
+
+h1{
+    font-size: 50px;
+    color:#fffcd8;
+}
+h2{
+    font-size: 30px;
+    color:#fffcd8;
+}
+h3{
+    font-size: 30px;
+    color:#818181;  
+}
+p{
+    color: #777777;
+}
+.character{
+    display: inline-block;
+}
+.img-battle{
+    width: 900px;
+}
+.battle-container{
+    text-align: center;
+    max-width: 1100px;
+    position: relative;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    padding: 20px 50px;
+    border-top:  1px dashed #555555;
+}
+
+.boss-container{
+    align-items: center;   
+    width: 200px;
+    height: 200px;
+    margin:20px;
+    display: inline-block;
+}
+
+.boss-container p{
+    align-items: left; 
+    margin-left: 0%;  
+}
+
+.palette-container{
+    background-color:#1a1a1f;
+    text-align: center;
+    width: 600px;
+    height:550px;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+   
+}
+
+.imagens-palette{
+    padding-bottom: 25px;
+    border: 2px solid;
+    height:400px;
+    border-color: #818181;
+}
+
+.imagens-palette li img {
+    width: 80px;
+}
+ul {
+    list-style-type: none;
+    float: left;
+}
+.img-about-boss {    width: 400px;
+}
+#trocarimg {
+    margin-left: 50px;
+}
+.ataque{
+    width: 20px;
+}
+
+footer{
+    border-top:  2px solid #555555;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer h3{
+    margin: 0;
+    margin-top: 10px;
+}
